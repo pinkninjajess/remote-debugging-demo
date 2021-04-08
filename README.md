@@ -12,5 +12,6 @@ Docker Commands:
 - docker build -t remote-debugger:demo .
 - docker run -d -p 8000:8000 remote-debugger:demo
 
-Articles on debugging with IntelliJ:
+Helpful articles:
 - [8 Debugging tips for IntelliJ Users](https://lightrun.com/debugging/eight-debugging-tips-for-intellijidea-users-you-never-knew-existed/)
+- [Remote Debugging a Java App](https://www.baeldung.com/java-application-remote-debugging)

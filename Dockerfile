@@ -9,5 +9,6 @@ COPY target/remote-debugging-1.0-SNAPSHOT.jar  remote-debugging.jar
 # Tells Docker what to run when the container is started
 ENTRYPOINT ["java", "-cp", "remote-debugging.jar", "App"]
 # The port that the Docker container listens to
-# The EXPOSE instruction does not actually publish the port. It functions as a type of documentation between the person who builds the image and the person who runs the container, about which ports are intended to be published.
+# The EXPOSE instruction does not actually publish the port.
+# It functions as a type of documentation between the person who builds the image and the person who runs the container, about which ports are intended to be published.
 EXPOSE 8000
